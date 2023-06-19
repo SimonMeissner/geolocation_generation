@@ -31,5 +31,6 @@ stopAtTableRowWithId = 2
 ### Get started
 1. Create .env file from .env.example
 2. Provide your database data in .env file to be able to connect to your database
-3. in all functions using table_name as a variable insert your specific table name which contains your address data
-4. Configure the main function according to your needs.
+3. Provide your indivdual geoapify api key in .env file
+4. in all functions using table_name as a variable insert your specific table name which contains your address data
+5. Configure the main function according to your needs.
