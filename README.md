@@ -34,3 +34,5 @@ stopAtTableRowWithId = 2
 3. Provide your indivdual geoapify api key in .env file
 4. in all functions using table_name as a variable insert your specific table name which contains your address data
 5. Configure the main function according to your needs.
+6. Install the python dependencies.
+7. In your command line navigate to your repository and run the python script using your interpreter.
