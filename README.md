@@ -18,9 +18,9 @@ response = generateGeolocationFromCity(country, city)
 
 ```
 
-### Specify table_rows_ids affected
+### Specify table row ids affected
 
-The script works on id selection. You can specify an id range in your database table in where you want to generate geographic data. You will find it in the main function.
+The script works on id selection. You can specify an id range in your database table where you want to generate geographic data. You will find two variables in the main function.
 ```python
 
 startAtTableRowWithId = 1
