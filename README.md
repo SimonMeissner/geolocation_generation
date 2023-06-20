@@ -36,3 +36,10 @@ stopAtTableRowWithId = 2
 5. Configure the main function according to your needs.
 6. Install the python dependencies.
 7. In your command line navigate to your repository and run the python script using your interpreter.
+
+### Run script on server from your local machine
+In a laravel environment using forge for deployment you can connect via ssh tunnel to your remote server and run the script on your local machine. You don't have to install anything (no dependencies) on the remote server for it to work.
+
+```bash
+ssh -L 3306:localhost:3306 -i /path/to/private_key forge@server_ip
+```
