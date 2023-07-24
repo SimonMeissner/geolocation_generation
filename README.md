@@ -36,7 +36,7 @@ stopAtTableRowWithId = 2
 5. Configure the main function according to your needs.
 6. Run: 
 ```bash
-chmod +x run_script.sh
+chmod +x geolocation_generation.sh
 ```
 7. After providing the shell script permissions you can run the script:
 ```bash
