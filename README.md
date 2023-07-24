@@ -34,8 +34,14 @@ stopAtTableRowWithId = 2
 3. Provide your indivdual geoapify api key in .env file
 4. in all functions using table_name as a variable insert your specific table name which contains your address data
 5. Configure the main function according to your needs.
-6. Install the python dependencies.
-7. In your command line navigate to your repository and run the python script using your interpreter.
+6. Run: 
+```bash
+chmod +x run_script.sh
+```
+7. After providing the shell script permissions you can run the script:
+```bash
+./geolocation_generation.sh
+```
 
 ### Run script on server from your local machine
 In a laravel environment using forge for deployment you can connect via ssh tunnel to your remote server and run the script on your local machine. You don't have to install anything (no dependencies) on the remote server for it to work.
