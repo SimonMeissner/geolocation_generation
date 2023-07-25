@@ -40,7 +40,7 @@ chmod +x geolocation_generation.sh
 ```
 7. After providing the shell script permissions you can run the script:
 ```bash
-./geolocation_generation.sh
+sh geolocation_generation.sh
 ```
 
 ### Run script on server from your local machine
